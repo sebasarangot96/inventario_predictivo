@@ -1,0 +1,14 @@
+# Ignorar datos pesados
+data/raw/
+data/interim/
+data/processed/
+
+# Entornos virtuales
+.venv/
+env/
+
+# Archivos temporales
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+.DS_Store
