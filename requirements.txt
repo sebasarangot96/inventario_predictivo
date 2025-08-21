@@ -1,4 +1,8 @@
 pandas
+numpy
+matplotlib
+seaborn
+statsmodels
+scikit-learn
 pyarrow
 jupyter
-notebook
