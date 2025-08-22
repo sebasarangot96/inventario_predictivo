@@ -61,29 +61,29 @@ inventario_predictivo/
 
 ---
 
-## ⚙️ Instalación y uso (rápido)
+⚙️ Instalación y uso (rápido)
 
 ```bash
-# 1) Clonar
+1) Clonar
 git clone https://github.com/sebasarangot96/inventario_predictivo.git
 cd inventario_predictivo
 
-# 2) Entorno
+2) Entorno
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
-## 🧹 Generación de datos limpios
+🧹 Generación de datos limpios
 
 El proyecto incluye un **pipeline de limpieza y estandarización** que transforma los archivos crudos en `data/raw/` hacia archivos procesados en `data/processed/`.
 
-### Pasos principales
+Pasos principales
 1. **Activar el entorno virtual**
    ```bash
    source .venv/bin/activate    # en Mac/Linux
    .venv\Scripts\activate       # en Windows
 
-## 📑 Notas sobre los datos
+📑 Notas sobre los datos
 
 - Los archivos originales provienen de un dataset público (Kaggle) y representan ventas, inventarios y compras de una empresa ficticia de licores.  
 - Durante la limpieza se detectaron y corrigieron:
@@ -93,6 +93,7 @@ El proyecto incluye un **pipeline de limpieza y estandarización** que transform
 - Existen **valores faltantes** en algunas tablas, principalmente en `sales` y `purchases`. Estos se mantienen para análisis posterior y decisiones de negocio.  
 - Los **diccionarios de datos** generados en `data/processed/*_dictionary.csv` describen las columnas finales de cada archivo limpio.  
 - Este dataset es únicamente para fines **académicos y de práctica en analítica de datos**.
+
 
 
 
