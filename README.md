@@ -1,9 +1,8 @@
 <p align="center">
-  <img src="docs/assets/logo_licores_andinos.png" alt="Licores Andinos" height="120">
+  <img src="docs/assets/logo_licores_andinos.png" alt="Licores Andinos" width="200">
 </p>
 
 # Inventario Predictivo — Licores Andinos
-
 <h1 align="center">Inventario Predictivo — Licores Andinos</h1>
 
 <p align="center">
@@ -74,4 +73,5 @@ cd inventario_predictivo
 python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
+
 
