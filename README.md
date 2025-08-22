@@ -73,6 +73,26 @@ python -m venv .venv
 source .venv/bin/activate          # Windows: .venv\Scripts\activate
 pip install -r requirements.txt
 
+## 🧹 Generación de datos limpios
+
+El proyecto incluye un **pipeline de limpieza y estandarización** que transforma los archivos crudos en `data/raw/` hacia archivos procesados en `data/processed/`.
+
+### Pasos principales
+1. **Activar el entorno virtual**
+   ```bash
+   source .venv/bin/activate    # en Mac/Linux
+   .venv\Scripts\activate       # en Windows
+
+## 📑 Notas sobre los datos
+
+- Los archivos originales provienen de un dataset público (Kaggle) y representan ventas, inventarios y compras de una empresa ficticia de licores.  
+- Durante la limpieza se detectaron y corrigieron:
+  - **Filas duplicadas** en algunos archivos.  
+  - **Inconsistencias en columnas de texto** (ej. `Brand`, `Classification`, `VendorName`) → se normalizaron a mayúsculas y sin espacios.  
+  - **Formato de tallas (`Size`)** → convertido a mililitros (`size_ml`) para un análisis uniforme.  
+- Existen **valores faltantes** en algunas tablas, principalmente en `sales` y `purchases`. Estos se mantienen para análisis posterior y decisiones de negocio.  
+- Los **diccionarios de datos** generados en `data/processed/*_dictionary.csv` describen las columnas finales de cada archivo limpio.  
+- Este dataset es únicamente para fines **académicos y de práctica en analítica de datos**.
 
 
 
