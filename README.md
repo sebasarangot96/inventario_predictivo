@@ -7,8 +7,12 @@
 <p align="center">
   <a href="https://github.com/sebasarangot96/inventario_predictivo"><img src="https://img.shields.io/github/last-commit/sebasarangot96/inventario_predictivo" alt="last commit"></a>
   <a href="https://github.com/sebasarangot96/inventario_predictivo/issues"><img src="https://img.shields.io/github/issues/sebasarangot96/inventario_predictivo" alt="issues"></a>
-  <a href="#"><img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="python"></a>
-  <a href="#"><img src="https://img.shields.io/badge/pandas-yes-150458" alt="pandas"></a>
+  <img src="https://img.shields.io/badge/Python-3.10%2B-blue" alt="python">
+  <img src="https://img.shields.io/badge/pandas-yes-150458" alt="pandas">
+  <img src="https://img.shields.io/badge/BigQuery-ready-4285F4" alt="bigquery">
+  <img src="https://img.shields.io/badge/Power%20BI-dashboard-F2C811" alt="powerbi">
+  <img src="https://img.shields.io/badge/scikit--learn-ML-FF9F1C" alt="sklearn">
+  <img src="https://img.shields.io/badge/Streamlit-app-FF4B4B" alt="streamlit">
 </p>
 
 ---
@@ -97,3 +101,4 @@ inventario_predictivo/
   - 1000 filas aleatorias (`*.sample1000.csv`)  
 
 ---
+
